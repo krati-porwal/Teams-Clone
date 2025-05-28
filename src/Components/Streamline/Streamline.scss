@@ -1,0 +1,56 @@
+$color:#000;
+$background:transparent;
+$purple:#5059c9;
+
+
+.main{
+    
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .left-content {
+    
+    h1 {
+        
+       display: block;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-family: inherit;
+        margin-top: 0;
+       
+    }
+
+    p {
+      margin: 1rem 0;
+ 
+    }
+    .buttons {
+      display: flex;
+      gap: 1rem;
+    }
+    .btn-primary {
+      background-color: $purple;
+      border-color: $purple;
+      border-radius: 0%;
+    }
+
+    .btn-outline {
+      border: 1px solid $purple;
+      color: $purple;
+      background-color: $background;
+      border-radius: 0%;
+
+    }
+  }
+
+  .right-content {
+    position: relative;
+
+    .main-copilot-img {
+      width: 100%;
+      border-radius: 0;
+      z-index: 1;
+    }
+    }
+  }
+
