@@ -16,8 +16,7 @@ function MicrosoftPlan(){
 
                        <p>
                        Sign in to add Copilot to your existing Microsoft 365 business plan.
-                       </p>
-                       <br/>
+                       </p>                   
                        <p>
                         If you’re not an existing customer, buy a Microsoft 365 plan to get started.
                        </p>
