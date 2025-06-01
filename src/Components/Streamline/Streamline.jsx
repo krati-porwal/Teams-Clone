@@ -1,32 +1,35 @@
 import copilot from '../../assets/Copilot.png';
 import './Streamline.scss';
 
-function Streamline(){
-    return(
+const Streamline = () => {
+    return (
         <>
 
             <div className="main container-fluid px-5 py-5">
+
                 <div className="row align-items-center">
 
+                    {/*left-Content-Section*/}
                     <div className="col-md-6 left-content">
 
-                       <h1>
-                        Streamline communication with Copilot in Teams
-                       </h1>
+                        <h1>
+                            Streamline communication with Copilot in Teams
+                        </h1>
 
-                       <p>
-                        Track discussions in real time and summarize conversations.
-                       </p>
+                        <p>
+                            Track discussions in real time and summarize conversations.
+                        </p>
 
-                     <div className="buttons">
-                        <button className="btn btn-primary">Shop now</button>
-                        <button className="btn btn-outline">Learn more</button>
+                        <div className="buttons">
+                            <button className="btn btn-primary">Shop now</button>
+                            <button className="btn btn-outline">Learn more</button>
+                        </div>
+
                     </div>
 
-                    </div>
-
+                    {/*Right-Image-Section*/}
                     <div className="col-md-6 right-content">
-                    <img src={copilot}  className="main-copilot-img" />
+                        <img src={copilot} className="main-copilot-img" />
                     </div>
 
                 </div>
@@ -36,4 +39,4 @@ function Streamline(){
     )
 }
 
-export default  Streamline;
+export default Streamline;
