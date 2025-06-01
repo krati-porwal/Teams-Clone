@@ -1,33 +1,35 @@
-$color:#000;
-$background:transparent;
-$purple:#5059c9;
+$color: #000;
+$background: transparent;
+$purple: #5059c9;
 
 
-.main{
-    
+.main {
+
   padding-top: 5rem;
   padding-bottom: 5rem;
 
   .left-content {
-    
+
     h1 {
-        
-       display: block;
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        font-family: inherit;
-        margin-top: 0;
-       
+
+      display: block;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-family: inherit;
+      margin-top: 0;
+
     }
 
     p {
       margin: 1rem 0;
- 
+
     }
+
     .buttons {
       display: flex;
       gap: 1rem;
     }
+
     .btn-primary {
       background-color: $purple;
       border-color: $purple;
@@ -51,6 +53,5 @@ $purple:#5059c9;
       border-radius: 0;
       z-index: 1;
     }
-    }
   }
-
+}

@@ -12,22 +12,21 @@
   .card {
     border: none;
     padding: 1.5rem 1rem;
-    }
-
-    .card-img-top {
-      width: 100px;
-      height: 100px;
-      margin: 0 auto 1rem auto;
-    }
-
-    .card-title {
-      font-size: 1.1rem;
-      margin-top: 0.5rem;
-    }
-
-    .card-text {
-      font-size: 0.95rem;
-      margin-top: 0.5rem;
-    }
   }
 
+  .card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem auto;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+  }
+}

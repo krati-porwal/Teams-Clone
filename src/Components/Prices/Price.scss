@@ -1,58 +1,59 @@
-$purple:#5059c9;
+$purple: #5059c9;
 
-.Price{
+.Price {
   padding: 4rem 2rem;
   text-align: center;
-  margin:50px;
+  margin: 50px;
 }
-  .Price-card{
-   border-radius: 12px;              
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-   margin-left: 10px;
-   
-  }
 
-  .subtitle-Price{
-    margin-bottom: 50px;
-  }
+.Price-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
 
+}
 
-  .btn-price {
-    background-color:$purple;
-    color: #fff;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 0;
-  }
-
-  .card-header{
-    background-color: $purple;
-    color:#fff;
-  }
-
-  #price-title1{
-    margin-top: 1rem;
-  }
-
-  #price-title2{
-    padding-top: 5rem;
-  }
-  
-   #price-title3{
-    padding-top: 5rem;
-  }
-
-  
-  .pricing-card-title{
-    color:$purple;
-  }
+.subtitle-Price {
+  margin-bottom: 50px;
+}
 
 
- .subheading{
+.btn-price {
+  background-color: $purple;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+}
+
+.card-header {
+  background-color: $purple;
+  color: #fff;
+}
+
+#price-title1 {
+  margin-top: 1rem;
+}
+
+#price-title2 {
+  padding-top: 5rem;
+}
+
+#price-title3 {
+  padding-top: 5rem;
+}
+
+
+.pricing-card-title {
+  color: $purple;
+}
+
+
+.subheading {
   padding: 30 30 0 0;
- 
- }
+
+}
 
 .tick-list {
   list-style: none;
@@ -66,7 +67,7 @@ $purple:#5059c9;
     margin-bottom: 10px;
 
     &::before {
-      content: "✓"; 
+      content: "✓";
       position: absolute;
       left: 0;
       top: 0;
