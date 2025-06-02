@@ -1,0 +1,335 @@
+$color: #000;
+$background: transparent;
+$purple: #5059c9;
+$grey: #f3f2f1;
+
+@mixin customImage() {
+  width: 100%;
+  border-radius: 0;
+  z-index: 1;
+}
+
+@mixin greyBackground() {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: $grey;
+}
+
+@mixin btn-primary() {
+  background-color: $purple;
+  border-color: $purple;
+  font-weight: 500;
+  border-radius: 0%;
+}
+
+@mixin btn-outline() {
+  border: 1px solid $purple;
+  color: $purple;
+  background-color: $background;
+  font-weight: 500;
+  border-radius: 0%;
+}
+
+@mixin CardBase() {
+  .card {
+    border: none;
+    padding: 1.5rem 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@mixin card-img-top() {
+  .card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem auto;
+  }
+}
+
+@mixin Left-Content() {
+  h1 {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@mixin Title(){
+      font-size: 2rem;
+      margin-bottom: 1rem;
+}
+
+@mixin subtitle(){
+   font-size: 1rem;
+    max-width: 720px;
+    margin: 0 auto 1.5rem auto;
+}
+
+//Hero-Section
+.custom-outline-black {
+  color: $color;
+  border: 1px solid $color;
+  background-color: $background;
+  margin: 10px;
+  margin-right: 20px;
+
+  &:hover {
+    color: $color;
+    background-color: $background ;
+    border-color: $color;
+  }
+}
+
+.main-content {
+  @include greyBackground();
+
+  .left-content {
+    @include Left-Content();
+
+    .btn-primary {
+      @include btn-primary();
+    }
+
+    .btn-outline {
+      @include btn-outline();
+    }
+  }
+
+  .right-content {
+    .main-hero-img {
+      @include customImage();
+    }
+  }
+}
+
+//Small_business
+.small_business {
+  padding: 4rem 2rem;
+  text-align: center;
+
+  .Title {
+       @include Title();
+  }
+
+  .subtitle {
+      @include subtitle();
+  }
+
+  @include CardBase();
+  @include card-img-top();
+}
+
+//Streamline
+.main {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .left-content {
+    @include Left-Content();
+
+    .btn-primary {
+      @include btn-primary();
+    }
+
+    .btn-outline {
+      @include btn-outline();
+    }
+  }
+
+  .right-content {
+    .main-copilot-img {
+      @include customImage();
+    }
+  }
+}
+
+//Price
+.Price {
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 50px;
+}
+
+.Title-Price{
+  @include Title();
+}
+
+.subtitle-Price{
+  @include subtitle();
+  margin-bottom: 3rem;
+}
+.Price-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+
+}
+
+.btn-price {
+  @include btn-primary();
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.card-header {
+  background-color: $purple;
+  color: #fff;
+}
+
+#price-title1 {
+  margin-top: 1rem;
+}
+
+#price-title2 {
+  padding-top: 5rem;
+}
+
+#price-title3 {
+  padding-top: 5rem;
+}
+
+.pricing-card-title {
+  color: $purple;
+}
+
+.subheading {
+  padding: 30 30 0 0;
+
+}
+
+.tick-list {
+  list-style: none;
+  padding: 2rem;
+  margin: 0;
+  text-align: left;
+
+  li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+
+    &::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+//Explore_apps
+.Explore {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: $purple;
+  color: #fff;
+}
+
+.Title-Explore{
+  @include Title();
+}
+
+.subtitle-Explore{
+  @include subtitle();
+}
+
+.explore-btn {
+  color: $purple;
+  border: none;
+}
+
+//reach
+.reach-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .right-content {
+    h1 {
+      display: block;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      margin-top: 0;
+
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+  }
+
+  .left-content {
+    .img {
+      @include customImage();
+    }
+  }
+}
+
+//Add to team
+.AddToTeam {
+  padding: 4rem 2rem;
+  text-align: center;
+
+  .Title-add {
+   @include Title();
+  }
+
+  @include CardBase();
+}
+
+//Help
+.Help {
+  padding: 4rem 2rem;
+  text-align: center;
+
+  .Title {
+    @include Title();
+  }
+
+  @include CardBase();
+  @include card-img-top();
+
+}
+
+//microsoftPlan
+.Plan-content {
+  @include greyBackground();
+  width: 85%;
+
+  .left-content {
+    @include Left-Content();
+
+    .btn-primary {
+      @include btn-primary();
+    }
+
+    .btn-outline {
+      @include btn-outline();
+    }
+  }
+
+  .right-content {
+    .Plan-img {
+      @include customImage();
+    }
+  }
+}
