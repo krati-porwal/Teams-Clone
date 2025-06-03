@@ -1,27 +1,27 @@
-import './styles/App.scss';
+import './Styles/App.scss';
 import Navbar from './Components/HeroSection/Navbar';
-import MainContent from './Components/HeroSection/MainContentFixed';
-import SmallBusiness from './Components/Small_business/SmallBusiness';
-import Streamline from './Components/Streamline/Streamline';
-import Price from './Components/Prices/Price';
-import Explore from './Components/Explore_apps/Explore';
-import Reach from './Components/Expand_your_reach/reach';
-import AddToTeam from './Components/Add_to_teams/AddToTeams';
+import HeroSection from './Components/HeroSection';
+import SmallBusiness from './Components/SmallBusiness';
+import Streamline from './Components/Streamline';
+import Price from './Components/Price';
+import ExploreApps from './Components/ExploreApps';
+import Reach from './Components/Reach';
+import AddToTeams from './Components/AddToTeams';
 import Help from './Components/Help/Help';
-import MicrosoftPlan from './Components/MicrosoftPlan/MicrosoftPlan';
+import MicrosoftPlan from './Components/MicrosoftPlan';
 
-function App() {
+const App = () => {
 
   return (
     <>
       <Navbar />
-      <MainContent />
+      <HeroSection />
       <SmallBusiness />
       <Streamline />
       <Price />
-      <Explore />
+      <ExploreApps />
       <Reach />
-      <AddToTeam />
+      <AddToTeams />
       <Help />
       <MicrosoftPlan />
     </>

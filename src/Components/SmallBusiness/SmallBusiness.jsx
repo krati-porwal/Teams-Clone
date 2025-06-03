@@ -7,59 +7,59 @@ const SmallBusiness = () => {
 
 	return (
 		<>
-			<div className="small_business  py-5 text-center">
-				<div className="Title">
+			<div className = "py-5 text-center small-business">
+				<div className = "title">
 					<h2>Small business software made for all the ways you work</h2>
 				</div>
-				<div className="subtitle">
+				<div className = "subtitle">
 					<p>
 						Easily communicate with customers and employees.
 						create, share, and store files securely from a single cloud-first platform.
 					</p>
 				</div>
-				<div className="row gy-5">
-					<div className="col-md-3">
-						<div className="card" >
-							<img src={icon1} className="card-img-top" alt="..." />
-							<div className="card-body">
-								<h5 className="card-title">Meet from anywhere</h5>
-								<p className="card-text">
+				<div className = "row mx-0 gy-5">
+					<div className = "col-md-3">
+						<div className = "card" >
+							<img src = {icon1} className = "card-img-top" alt = "..." />
+							<div className = "card-body">
+								<h5 className = "card-title">Meet from anywhere</h5>
+								<p className = "card-text">
 									Start meetings with anyone and
 									boost engagement with virtual backgrounds, recordings, transcriptions, and AI-powered recaps.
 								</p>
 							</div>
 						</div>
 					</div>
-					<div className="col-md-3">
-						<div className="card" >
-							<img src={icon2} className="card-img-top" alt="..." />
-							<div className="card-body">
-								<h5 className="card-title">Chat with anyone</h5>
-								<p className="card-text">
+					<div className = "col-md-3">
+						<div className = "card" >
+							<img src = {icon2} className = "card-img-top" alt = "..." />
+							<div className = "card-body">
+								<h5 className = "card-title">Chat with anyone</h5>
+								<p className = "card-text">
 									Get work done with people inside and outside your company.
 									Send messages, react with emojis, create teams, and coordinate events—all from one app.
 								</p>
 							</div>
 						</div>
 					</div>
-					<div className="col-md-3">
-						<div className="card" >
-							<img src={icon3} className="card-img-top" alt="..." />
-							<div className="card-body">
-								<h5 className="card-title">Get things done in one place</h5>
-								<p className="card-text">
+					<div className = "col-md-3">
+						<div className = "card" >
+							<img src = {icon3} className="card-img-top" alt = "..." />
+							<div className = "card-body">
+								<h5 className = "card-title">Get things done in one place</h5>
+								<p className = "card-text">
 									Collaborate on documents in real time and reduce
 									context switching by working in Microsoft 365 apps right from Teams.
 								</p>
 							</div>
 						</div>
 					</div>
-					<div className="col-md-3">
-						<div className="card" >
-							<img src={icon4} className="card-img-top" alt="..." />
-							<div className="card-body">
-								<h5 className="card-title">Stay secure and productive</h5>
-								<p className="card-text">
+					<div className = "col-md-3">
+						<div className = "card" >
+							<img src = {icon4} className = "card-img-top" alt = "..." />
+							<div className = "card-body">
+								<h5 className = "card-title">Stay secure and productive</h5>
+								<p className = "card-text">
 									Proactively reduce risk while helping employees stay in the flow of work.
 									Have peace of mind knowing sensitive information is encrypted in all chats, calls, meetings, and files.
 								</p>
@@ -71,4 +71,5 @@ const SmallBusiness = () => {
 		</>
 	)
 }
+
 export default SmallBusiness;

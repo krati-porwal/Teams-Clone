@@ -2,32 +2,29 @@ const Price = () => {
 
 	return (
 		<>
-			<div className="Price py-5 text-center">
-				<div className="Title-Price">
+			<div className = "py-5 text-center price">
+				<div className = "title-price">
 					<h2>Find the right Teams plan for your small business</h2>
 				</div>
-				<div className="subtitle-Price">
+				<div className = "subtitle-Price">
 					<p>
 						There are several ways to get Teams for your small business.
 						Compare plans and pricing to find the small business software solution that works best for you.
 					</p>
 				</div>
-				<div className="row gy-5">
-					<div className="col-md-4">
-						<div className="Price-card">
-							<div className="card-header py-3">
+				<div className = "row mx-0 gy-5">
+					<div className = "col-md-4">
+						<div className = "price-card">
+							<div className = "py-3 card-header">
 								<h4 >Most Popular</h4>
 							</div>
-							<h4 id='price-title1'>Microsoft Teams Essentials</h4>
-							<div className="card-body">
-								<h2 className="pricing-card-title">₹ 115.00</h2>
+							<h4 id = 'price-title1'>Microsoft Teams Essentials</h4>
+							<div className = "card-body">
+								<h2 className = "pricing-card-title">₹ 115.00</h2>
 								<small> user/month, paid yearly (Annual subscription—auto renews)</small>
-								<br></br><br />
 								<small >GST extra as applicable</small>
-								<br />
-								<button type="button" className="btn-price">Buy Now</button>
-								<br /><br /><br /><br /><br /><br /><br />
-								<ul className="tick-list">
+								<button type = "button" className = "btn-price">Buy Now</button>
+								<ul className = "tick-list">
 									<li>Unlimited group meetings for up to 30 hours and 300 participants</li>
 									<li>10 GB of cloud storage per user</li>
 									<li>Real-time collaboration with file sharing, tasks, and polling</li>
@@ -38,19 +35,17 @@ const Price = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4">
-						<div className="Price-card">
-							<h4 id='price-title2'>Microsoft 365 Business Basic</h4>
-							<div className="card-body">
-								<h2 className="pricing-card-title">₹ 145.00</h2>
+					<div className = "col-md-4">
+						<div className = "price-card">
+							<h4 id = 'price-title2'>Microsoft 365 Business Basic</h4>
+							<div className = "card-body">
+								<h2 className = "pricing-card-title">₹ 145.00</h2>
 								<small> user/month, paid yearly(Annual subscription—auto renews)</small>
-								<br></br><br />
 								<small >GST extra as applicable</small>
 								<br />
-								<button type="button" className="btn-price">Buy Now</button>
-								<br /><br /><br /><br /><br /><br /><br />
-								<h4 className='subheading'>Everything offered in Teams Essentials, plus:</h4>
-								<ul className="tick-list">
+								<button type = "button" className = "btn-price">Buy Now</button>
+								<h4 className = 'subheading'>Everything offered in Teams Essentials, plus:</h4>
+								<ul className = "tick-list">
 									<li>Identity and access management for up to 300 users​</li>
 									<li>Web and mobile versions of Word, Excel, PowerPoint, Outlook, and other apps​</li>
 									<li>Custom business email​</li>
@@ -61,21 +56,18 @@ const Price = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4">
-						<div className="Price-card">
-							<h4 id='price-title3'>
+					<div className = "col-md-4">
+						<div className = "price-card">
+							<h4 id = 'price-title3'>
 								Microsoft 365 Business Standard
 							</h4>
-							<div className="card-body">
-								<h2 className="pricing-card-title">₹ 770.00</h2>
+							<div className = "card-body">
+								<h2 className = "pricing-card-title">₹ 770.00</h2>
 								<small> user/month, paid yearly (Annual subscription—auto renews)</small>
-								<br></br><br />
 								<small >GST extra as applicable</small>
-								<br />
-								<button type="button" className="btn-price">Buy Now</button>
-								<br /><br /><br /><br /><br /><br /><br />
-								<h4 className='subheading'>Everything offered in Business Basic, plus:</h4>
-								<ul className="tick-list">
+								<button type = "button" className = "btn-price">Buy Now</button>
+								<h4 className = 'subheading'>Everything offered in Business Basic, plus:</h4>
+								<ul className = "tick-list">
 									<li> Identity and access management for up to 300 users</li>
 									<li>Desktop, web, and mobile versions of Word, Excel, PowerPoint, Outlook, and other apps​</li>
 									<li>Custom business email​</li>
@@ -91,4 +83,5 @@ const Price = () => {
 		</>
 	)
 }
+
 export default Price;
