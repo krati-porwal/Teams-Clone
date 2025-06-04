@@ -1,4 +1,4 @@
-const ExploreApps = () => {
+const ExploreAppSection = () => {
 
 	return (
 		<>
@@ -21,4 +21,4 @@ const ExploreApps = () => {
 	)
 }
 
-export default ExploreApps;
+export default ExploreAppSection;

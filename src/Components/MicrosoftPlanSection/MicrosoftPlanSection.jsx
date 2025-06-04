@@ -1,6 +1,6 @@
 import Plan from '../../assets/plan.avif';
 
-const MicrosoftPlan = () => {
+const MicrosoftPlanSection = () => {
 
 	return (
 		<>
@@ -30,4 +30,4 @@ const MicrosoftPlan = () => {
 	)
 }
 
-export default MicrosoftPlan;
+export default MicrosoftPlanSection;

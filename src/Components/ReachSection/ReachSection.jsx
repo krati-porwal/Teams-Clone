@@ -1,6 +1,6 @@
 import reach from '../../assets/reach.png';
 
-const Reach = () => {
+const ReachSection = () => {
 
 	return (
 		<>
@@ -25,4 +25,4 @@ const Reach = () => {
 	)
 }
 
-export default Reach;
+export default ReachSection ;

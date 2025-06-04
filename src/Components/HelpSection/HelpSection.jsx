@@ -3,7 +3,7 @@ import iconH2 from '../../assets/Help_icon2.avif';
 import iconH3 from '../../assets/Help_icon3.avif';
 import iconH4 from '../../assets/Help_icon4.avif';
 
-const Help = () => {
+const HelpSection = () => {
 
 	return (
 		<>
@@ -66,4 +66,4 @@ const Help = () => {
 	)
 }
 
-export default Help;
+export default  HelpSection;

@@ -3,7 +3,7 @@ import icon2 from '../../assets/2nd_icon.png';
 import icon3 from '../../assets/3rd_icon.png';
 import icon4 from '../../assets/4th_icon.png';
 
-const SmallBusiness = () => {
+const SmallBusinessSection = () => {
 
 	return (
 		<>
@@ -72,4 +72,4 @@ const SmallBusiness = () => {
 	)
 }
 
-export default SmallBusiness;
+export default SmallBusinessSection;

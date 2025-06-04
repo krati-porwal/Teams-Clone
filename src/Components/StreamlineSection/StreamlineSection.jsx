@@ -1,6 +1,6 @@
 import copilot from '../../assets/Copilot.png';
 
-const Streamline = () => {
+const StreamlineSection = () => {
 
 	return (
 		<>
@@ -27,4 +27,4 @@ const Streamline = () => {
 	)
 }
 
-export default Streamline;
+export default StreamlineSection;

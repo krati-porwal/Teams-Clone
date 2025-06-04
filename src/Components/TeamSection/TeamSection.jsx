@@ -1,4 +1,4 @@
-const AddToTeams = () => {
+const TeamSection = () => {
 
 	return (
 		<>  
@@ -57,4 +57,4 @@ const AddToTeams = () => {
 	)
 }
 
-export default AddToTeams;
+export default TeamSection ;

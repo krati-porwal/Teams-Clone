@@ -1,4 +1,4 @@
-const Price = () => {
+const PriceSection = () => {
 
 	return (
 		<>
@@ -84,4 +84,4 @@ const Price = () => {
 	)
 }
 
-export default Price;
+export default PriceSection;
