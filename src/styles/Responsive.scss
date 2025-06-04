@@ -1,0 +1,48 @@
+
+@media (max-width: 768px) {
+  .card-img-top {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  h1, .card-title, .title
+  ,.title-explore,.subtitle-explore
+   {
+    font-size: 1.5rem;
+  }
+
+  .subtitle, .card-text {
+    font-size: 0.9rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .small-business,
+  .explore {
+    padding: 2rem 1rem;
+  }
+
+  .price{
+     margin:auto 1rem auto 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-img-top {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  h1, .card-title, .title,
+  .title-explore,.subtitle-explore {
+    font-size: 1.2rem;
+  }
+
+  .subtitle, .card-text {
+    font-size: 0.8rem;
+  }
+}

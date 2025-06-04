@@ -12,7 +12,7 @@ const HelpSection = () => {
 					<h2>Need help?</h2>
 				</div>
 				<div className = "row mx-0 gy-5">
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {iconH1} className = "card-img-top" alt="..." />
 							<div className = "card-body">
@@ -24,7 +24,7 @@ const HelpSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {iconH2} className = "card-img-top" alt="..." />
 							<div className = "card-body">
@@ -36,7 +36,7 @@ const HelpSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {iconH3} className = "card-img-top" alt="..." />
 							<div className = "card-body">
@@ -48,7 +48,7 @@ const HelpSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {iconH4} className = "card-img-top" alt="..." />
 							<div className = "card-body">

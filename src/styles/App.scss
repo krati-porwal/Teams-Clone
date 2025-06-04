@@ -49,9 +49,9 @@ $grey: #f3f2f1;
 
 @mixin card-img-top() {
   .card-img-top {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 1rem auto;
+    width: 8vw; //width: 100px;
+    height:8vw;  //height: 100px;
+    margin: 0 auto 0 auto;
   }
 }
 
@@ -166,7 +166,7 @@ $grey: #f3f2f1;
 .price {
   padding: 4rem 2rem;
   text-align: center;
-  margin: 50px;
+  margin:auto 12rem auto 12rem;
 }
 
 .title-price{
@@ -178,10 +178,14 @@ $grey: #f3f2f1;
   margin-bottom: 3rem;
 }
 .price-card {
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   margin-left: 10px;
 
+  .card-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 }
 
 .btn-price {
@@ -215,6 +219,10 @@ $grey: #f3f2f1;
 .subheading {
   padding: 30 30 0 0;
 
+}
+
+.list{
+  margin-top: 6rem;
 }
 
 .tick-list {
@@ -333,3 +341,5 @@ $grey: #f3f2f1;
     }
   }
 }
+
+@import './Responsive.scss';

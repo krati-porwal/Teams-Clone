@@ -7,7 +7,7 @@ const TeamSection = () => {
 					<h2>Add to Teams</h2>
 				</div>
 				<div className = "row mx-0 gy-5">
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card-add" >
 							<div className = "card-body">
 								<h5 className = "card-title">Teams Phone</h5>
@@ -18,7 +18,7 @@ const TeamSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card-add" >
 							<div className = "card-body">
 								<h5 className = "card-title">Microsoft Places</h5>
@@ -29,7 +29,7 @@ const TeamSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card-add" >
 							<div className = "card-body">
 								<h5 className = "card-title">Microsoft Viva</h5>
@@ -40,7 +40,7 @@ const TeamSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card-add" >
 							<div className = "card-body">
 								<h5 className = "card-title">Microsoft Designer</h5>

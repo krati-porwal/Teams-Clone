@@ -8,17 +8,17 @@ const SmallBusinessSection = () => {
 	return (
 		<>
 			<div className = "py-5 text-center small-business">
-				<div className = "title">
+				<div className = "title text-center">
 					<h2>Small business software made for all the ways you work</h2>
 				</div>
-				<div className = "subtitle">
+				<div className = "subtitle text-center">
 					<p>
 						Easily communicate with customers and employees.
 						create, share, and store files securely from a single cloud-first platform.
 					</p>
 				</div>
 				<div className = "row mx-0 gy-5">
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {icon1} className = "card-img-top" alt = "..." />
 							<div className = "card-body">
@@ -30,7 +30,7 @@ const SmallBusinessSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {icon2} className = "card-img-top" alt = "..." />
 							<div className = "card-body">
@@ -42,7 +42,7 @@ const SmallBusinessSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {icon3} className="card-img-top" alt = "..." />
 							<div className = "card-body">
@@ -54,7 +54,7 @@ const SmallBusinessSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className = "col-md-3">
+					<div className = "col-md-3 col-12">
 						<div className = "card" >
 							<img src = {icon4} className = "card-img-top" alt = "..." />
 							<div className = "card-body">
