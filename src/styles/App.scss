@@ -1,7 +1,4 @@
-$color: #000;
-$background: transparent;
-$purple: #5059c9;
-$grey: #f3f2f1;
+@use "Variables" as *;
 
 @mixin customImage() {
   width: 100%;
@@ -10,8 +7,8 @@ $grey: #f3f2f1;
 }
 
 @mixin greyBackground() {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background: $grey;
 }
 
@@ -19,7 +16,7 @@ $grey: #f3f2f1;
   background-color: $purple;
   border-color: $purple;
   font-weight: 500;
-  border-radius: 0%;
+  border-radius: 0;
 }
 
 @mixin btn-outline() {
@@ -27,30 +24,30 @@ $grey: #f3f2f1;
   color: $purple;
   background-color: $background;
   font-weight: 500;
-  border-radius: 0%;
+  border-radius: 0;
 }
 
 @mixin CardBase() {
   .card {
     border: none;
-    padding: 1.5rem 1rem;
+    padding: 24px 16px;
   }
 
   .card-title {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
+    font-size: 17.6px;
+    margin-top: 8px;
   }
 
   .card-text {
-    font-size: 0.95rem;
-    margin-top: 0.5rem;
+    font-size: 15.2px;
+    margin-top: 8px;
   }
 }
 
 @mixin card-img-top() {
   .card-img-top {
-    width: 8vw; //width: 100px;
-    height:8vw;  //height: 100px;
+   width: 100px;
+   height: 100px;
     margin: 0 auto 0 auto;
   }
 }
@@ -58,30 +55,30 @@ $grey: #f3f2f1;
 @mixin Left-Content() {
   h1 {
     display: block;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 32px;
+    margin-bottom: 16px;
     margin-top: 0;
   }
 
   p {
-    margin: 1rem 0;
+    margin: 16px 0;
   }
 
   .buttons {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
   }
 }
 
 @mixin Title(){
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 32px;
+      margin-bottom: 16px;
 }
 
 @mixin subtitle(){
-   font-size: 1rem;
+   font-size: 16px;
     max-width: 720px;
-    margin: 0 auto 1.5rem auto;
+    margin: 0 auto 24px auto;
 }
 
 //Hero-Section
@@ -123,7 +120,7 @@ $grey: #f3f2f1;
 
 //Small_business
 .small-business {
-  padding: 4rem 2rem;
+  padding: 64px 32px;
   text-align: center;
 
   .title {
@@ -140,8 +137,8 @@ $grey: #f3f2f1;
 
 //Streamline
 .main {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
   .left-content {
     @include Left-Content();
@@ -164,9 +161,9 @@ $grey: #f3f2f1;
 
 //Price
 .price {
-  padding: 4rem 2rem;
+  padding: 64px 32px;
   text-align: center;
-  margin:auto 12rem auto 12rem;
+  margin:auto 192px auto 192px;
 }
 
 .title-price{
@@ -175,7 +172,7 @@ $grey: #f3f2f1;
 
 .subtitle-Price{
   @include subtitle();
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 .price-card {
   border-radius: 10px;
@@ -201,15 +198,15 @@ $grey: #f3f2f1;
 }
 
 #price-title1 {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 #price-title2 {
-  padding-top: 5rem;
+  padding-top: 80px;
 }
 
 #price-title3 {
-  padding-top: 5rem;
+  padding-top: 80px;
 }
 
 .pricing-card-title {
@@ -222,12 +219,12 @@ $grey: #f3f2f1;
 }
 
 .list{
-  margin-top: 6rem;
+  margin-top: 96px;
 }
 
 .tick-list {
   list-style: none;
-  padding: 2rem;
+  padding: 32px;
   margin: 0;
   text-align: left;
 
@@ -247,7 +244,7 @@ $grey: #f3f2f1;
 
 //Explore_apps
 .explore {
-  padding: 4rem 2rem;
+  padding: 64px 32px;
   text-align: center;
   background-color: $purple;
   color: #fff;
@@ -268,20 +265,20 @@ $grey: #f3f2f1;
 
 //reach
 .reach-content {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
   .right-content {
     h1 {
       display: block;
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 32px;
+      margin-bottom: 16px;
       margin-top: 0;
 
     }
 
     p {
-      margin: 1rem 0;
+      margin: 16px 0;
     }
   }
 
@@ -294,7 +291,7 @@ $grey: #f3f2f1;
 
 //Add to team
 .add-to-team{
-  padding: 4rem 2rem;
+  padding: 64px 32px;
   text-align: center;
 
   .title-add {
@@ -306,7 +303,7 @@ $grey: #f3f2f1;
 
 //Help
 .help {
-  padding: 4rem 2rem;
+  padding: 64px  32px;
   text-align: center;
 
   .title {
@@ -342,4 +339,51 @@ $grey: #f3f2f1;
   }
 }
 
-@import './Responsive.scss';
+//--------------------------------------------mobile responsive-------------------------------------------------
+@media (max-width: 768px) {
+  .card-img-top {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  h1, .card-title, .title
+  ,.title-explore,.subtitle-explore
+   {
+    font-size: 24px;
+  }
+
+  .subtitle, .card-text {
+    font-size: 14.4px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .small-business,
+  .explore {
+    padding: 32px 16px;
+  }
+
+  .price{
+     margin:auto 16px auto 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-img-top {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  h1, .card-title, .title,
+  .title-explore,.subtitle-explore {
+    font-size: 19.2px;
+  }
+
+  .subtitle, .card-text {
+    font-size: 12.8px;
+  }
+}
